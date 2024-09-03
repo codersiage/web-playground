@@ -1,0 +1,60 @@
+# 忽略所有 node_modules 文件夹
+node_modules/
+
+# 忽略构建后的文件
+dist/
+build/
+out/
+
+# 忽略压缩后的js文件
+*.min.js
+
+# 忽略VSCode的配置文件夹
+.vscode/
+# 忽略IDEA的配置文件
+.idea
+
+# 忽略vim的交换文件
+.*.swp
+
+# 忽略编辑器备份文件
+.*.bak
+
+# 忽略macOS系统生成的文件
+.DS_Store
+
+# 忽略Windows系统的缩略图缓存
+Thumbs.db
+
+# 忽略.env文件
+.env
+
+# 忽略所有日志文件
+*.log
+
+# 忽略临时文件夹
+tmp/
+
+# 忽略测试覆盖率报告
+coverage/
+
+# next.js
+.next
+
+# misc
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.env*.local
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
